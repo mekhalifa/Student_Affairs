@@ -1,0 +1,43 @@
+﻿
+.ui-dialog .ui-dialog-content {
+
+   overflow: unset !important;
+
+}
+.ui-dialog-content .ui-widget-content {
+    width: 700px !important;
+}
+
+.ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-draggable .ui-resizable {
+    width: 1000px !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.field-validation-error span{
+    color:red !important;
+}
